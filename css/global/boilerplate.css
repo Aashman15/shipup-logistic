@@ -1,0 +1,49 @@
+:root {
+  --cr-sim-blue: #2c2d5b;
+  --cr-sim-orange: #f67366;
+  --cr-light-yellow: #fff6df;
+  --cr-light-grey: #e8eeff;
+  --cr-text-1: #4f4f4f;
+  --cr-white: #fff;
+  --cr-black: #141414;
+  --cr-form-input: #979797;
+  --cr-bg-offered-services: #f4f6f9;
+  --cr-bg-operation-mode-circle: #230b34;
+  --cr-bg-map-section: #eef1fa;
+  --cr-footer-divider: #e5e5e5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--cr-text-1);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.5;
+}
+
+.header-underline {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 4px;
+  text-decoration-color: var(--cr-sim-orange);
+}

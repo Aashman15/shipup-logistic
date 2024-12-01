@@ -1,0 +1,22 @@
+.btn {
+  font-weight: 900;
+  padding: 20px 40px;
+  border-radius: 12px;
+  border: 1px solid var(--cr-sim-blue);
+  cursor: pointer;
+  transition: opacity 150ms ease-in-out;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: var(--cr-sim-blue);
+}
+
+.btn-dark {
+  background-color: var(--cr-sim-blue);
+  color: var(--cr-white);
+}
+
+.btn:hover {
+  opacity: 50%;
+}

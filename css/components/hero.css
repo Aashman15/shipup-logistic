@@ -1,0 +1,156 @@
+.hero {
+  padding-top: 26px;
+  text-align: center;
+}
+
+.hero-text-heading-black {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--cr-black);
+}
+
+.hero-text-heading-orange {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--cr-sim-orange);
+}
+
+.hero-text p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 12px;
+  color: #333333;
+}
+
+.hero-text-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-text-buttons button {
+  padding-inline: 58.5px;
+  font-size: 12px;
+}
+
+.hero-image {
+  margin-block: 50px;
+  width: 366px;
+  height: 310.58px;
+}
+
+.hero-secondary-image {
+  display: none;
+  width: 896px;
+  height: 896px;
+}
+
+.play-demo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.play-demo a {
+  font-size: 12px;
+  color: var(--cr-sim-blue);
+}
+
+.hero .video-icon-circle {
+  padding-block: 19.95px 13.95px;
+  padding-inline: 17.1px;
+
+  border-radius: 50%;
+  box-shadow: 0px 0px 24px 0px gray;
+  background-color: var(--cr-white);
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 29px;
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 0px gray;
+}
+
+.form-group-input {
+  font-size: 12px;
+}
+
+@media (width >= 50.625em) {
+  .hero {
+    text-align: left;
+    padding-top: 0px;
+    position: relative;
+  }
+
+  .hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 596px;
+    margin-top: 257px;
+    margin-bottom: 258px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-text-heading-black {
+    font-size: 40px;
+  }
+
+  .hero-text-heading-orange {
+    font-size: 48px;
+  }
+
+  .hero-text-buttons {
+    justify-content: left;
+  }
+
+  .play-demo a {
+    font-size: 14px;
+  }
+
+  .hero-text-buttons button {
+    font-size: 14px;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    translate: 20% -22%;
+    width: 700px;
+    height: 594px;
+    margin: 0;
+  }
+
+  .hero-secondary-image {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    translate: -40% -40%;
+  }
+
+  .hero-form {
+    flex-direction: row;
+    column-gap: 22px;
+    padding: 36px;
+  }
+
+  .hero-form > * {
+    flex: 1;
+  }
+
+  .check-price-btn {
+    max-width: 250px;
+    padding-inline: 0px;
+  }
+}

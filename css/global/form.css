@@ -1,0 +1,39 @@
+.form-group {
+  position: relative;
+  background-color: purple;
+  background-color: inherit;
+}
+
+.form-group-label {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  transform: translateY(-50%);
+  padding-inline: 4px;
+  color: var(--cr-form-input);
+  background-color: inherit;
+  font-size: 14px;
+}
+
+.form-group-input {
+  padding-block: 24.42px;
+  padding-left: 42px;
+  border: 1px solid var(--cr-form-input);
+  border-radius: 12px;
+  width: 100%;
+  background-color: inherit;
+}
+
+.form-group-input::placeholder {
+  font-size: 12px;
+  color: var(--cr-form-input);
+}
+
+.form-group-input-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 14px;
+  width: 12px;
+}

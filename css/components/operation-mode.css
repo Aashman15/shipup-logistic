@@ -1,0 +1,159 @@
+.operation-mode {
+  padding-block: 80px 202.8px;
+}
+
+.operation-mode-truck {
+  width: 96px;
+  height: 102px;
+}
+
+.operation-mode-text {
+  margin-top: 30px;
+}
+
+.operation-mode-text h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-size: clamp(
+    1.5rem,
+    -0.05769230769230771rem + 3.076923076923077vw,
+    2.25rem
+  );
+}
+
+.operation-mode-steps {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 80px;
+}
+
+.operation-mode-step {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.operation-mode-step-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.operation-mode-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: var(--cr-bg-operation-mode-circle);
+  color: var(--cr-white);
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.operation-mode-step-header h3 {
+  font-size: 1.25rem;
+  font-size: clamp(
+    1.25rem,
+    -1.3461538461538463rem + 5.128205128205128vw,
+    2.5rem
+  );
+  color: var(--cr-sim-orange);
+  font-weight: 700;
+}
+
+.operation-mode-step-text p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.operation-mode-step-img {
+  width: 366px;
+  height: 366px;
+}
+
+.operation-mode-step-img.first {
+  height: 243.62px;
+}
+
+.pointer-img-first {
+  display: none;
+}
+
+.pointer-img-second {
+  display: none;
+}
+
+.operation-mode-img-placeholder {
+  display: none;
+}
+
+@media (width >= 50.625em) {
+  .operation-mode-steps {
+    row-gap: 50px;
+    margin-top: 50px;
+  }
+
+  .operation-mode-step {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 250px;
+  }
+
+  .operation-mode-step.first {
+    position: relative;
+  }
+
+  .operation-mode-step.second {
+    flex-direction: row-reverse;
+  }
+
+  .operation-mode-step-img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .operation-mode-step-img.first {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    translate: 21% 0%;
+    width: 600.94px;
+    height: 400px;
+  }
+
+  .operation-mode-step-text p {
+    max-width: 37ch;
+  }
+
+  .operation-mode-img-placeholder {
+    display: block;
+    width: 400px;
+    height: 400px;
+  }
+
+  .operation-mode-text {
+    position: relative;
+  }
+}
+
+@media (width>= 1140px) {
+  .pointer-img-first {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    translate: 45% 219%;
+  }
+
+  .pointer-img-second {
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    translate: 45% -169%;
+  }
+}

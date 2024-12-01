@@ -1,0 +1,10 @@
+.wrapper {
+  margin-inline: 24px;
+}
+
+@media (width >= 50.625em) {
+  .wrapper {
+    max-width: 1140px;
+    margin-inline: auto;
+  }
+}
