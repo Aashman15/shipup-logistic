@@ -115,19 +115,16 @@
 
 @media (width >= 50.625em) {
   .footer-text {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .explore {
-    justify-self: center;
-  }
-
-  .legal {
-    justify-self: center;
+    grid-template-columns: 220px 111px 45px 260px;
+    justify-content: space-between;
   }
 
   .footer-text > * {
     grid-column: auto;
+  }
+
+  .info {
+    max-width: 220px;
   }
 
   .info p {
